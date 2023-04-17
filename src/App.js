@@ -1,24 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import TestJson from './json/test.json';
+import FilterProductTable from './components/FilterProductTable';
 function App() {
+  const products = TestJson;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FilterProductTable products={products}/>
   );
 }
 

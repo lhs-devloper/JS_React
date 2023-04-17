@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.product_table{
+  width: 40%;
+}
+.product_table input[type="text"]{
+  width: 70%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+table{
+  text-align: left;
+}
+.impact{
+  font-weight: bold;
+}
+
+.stocked{
+  color: red;
+  font-weight: bold;
+}
